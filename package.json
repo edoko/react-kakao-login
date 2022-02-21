@@ -1,6 +1,6 @@
 {
   "name": "react-kakao-login",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "keyword": [
     "react",
     "reactjs",
@@ -28,16 +28,15 @@
     "prepublishOnly": "npm run build && push-dir --dir=storybook-static --branch=gh-pages",
     "test": "jest"
   },
-  "author": "wonism <yocee57@gmail.com> (https://wonism.github.io)",
+  "author": "",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wonism/react-kakao-login.git"
+    "url": "git+https://github.com/edoko/react-kakao-login.git"
   },
   "bugs": {
-    "url": "https://github.com/wonism/react-kakao-login/issues"
+    "url": "https://github.com/edoko/react-kakao-login/issues"
   },
-  "homepage": "https://wonism.github.io/react-kakao-login",
   "peerDependencies": {},
   "devDependencies": {
     "@babel/core": "^7.11.6",
