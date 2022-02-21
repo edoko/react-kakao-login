@@ -44,6 +44,7 @@ interface KakaoAuth {
   loginForm: (params: LoginParams) => void;
   logout: (callback: LogoutCallback) => void;
   getAccessToken: () => string | null;
+  authorize: (params: LoginParams) => void;
 }
 
 interface Profile {
