@@ -24,7 +24,7 @@ export default class KakaoLogin extends React.PureComponent<Props, State> {
       onFail,
     } = this.props;
 
-    const method = useLoginForm ? "loginForm" : "login";
+    const method = useLoginForm ? "loginForm" : "authorize";
 
     (window.Kakao?.Auth)[method]({
       throughTalk,
